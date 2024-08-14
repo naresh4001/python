@@ -1,0 +1,7 @@
+through command prompt (administration)
+
+- cd  locations 
+
+add a file in the location 
+
+then 
