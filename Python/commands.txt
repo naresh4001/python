@@ -1,0 +1,7 @@
+cd C:\ProgramData\anaconda3
+
+python C:\FromOLDLapTop\ToP\Pichu\PDF_TO_Excel.py
+
+
+cd C:\ProgramData\anaconda3
+python C:\PoojithaProjects\Python\teachpooji.py

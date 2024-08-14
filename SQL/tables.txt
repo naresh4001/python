@@ -1,0 +1,17 @@
+use poojithamssql;
+
+select top 100 * from dbo.Files
+
+
+CREATE TABLE dbo.ConfigParameters (
+    ParameterID INT PRIMARY KEY IDENTITY,
+    ParameterName NVARCHAR(255) UNIQUE,
+    ParameterValue NVARCHAR(MAX)
+);
+
+
+CREATE TABLE dbo.Files (
+    FileID INT PRIMARY KEY IDENTITY,
+    FileName NVARCHAR(255),
+    FileData VARBINARY(MAX)
+);

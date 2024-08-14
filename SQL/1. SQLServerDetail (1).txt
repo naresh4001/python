@@ -1,0 +1,11 @@
+Host A2NWPLSK14SQL-v03.shr.prod.iad2.secureserver.net
+Database name poojithamssql
+User name poojitha
+Password Poojitha$9
+
+
+132.148.185.6	POOJIDB
+
+below host name targets to IP address : 132.148.185.6
+
+A2NWPLSK14SQL-v03.shr.prod.iad2.secureserver.net

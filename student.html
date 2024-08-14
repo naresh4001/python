@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Student Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            width: 100%;
+            max-width: 500px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .form-group input[type="date"] {
+            padding: 9px 10px;
+        }
+        .btn-submit {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #28a745;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .btn-submit:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Add Student Details</h1>
+        <form action="http://localhost:8010/backbase/studentadd" method="POST" enctype = "multipart/form-data">
+            <div class="form-group">
+                <label for="StudentID">Student ID</label>
+                <input type="number" id="StudentID" name="StudentID" required>
+            </div>
+            <div class="form-group">
+                <label for="StudentName">Student Name</label>
+                <input type="text" id="StudentName" name="StudentName" required>
+            </div>
+            <div class="form-group">
+                <label for="STAddress">Address</label>
+                <input type="text" id="STAddress" name="STAddress" required>
+            </div>
+            <div class="form-group">
+                <label for="EmailID">Email ID</label>
+                <input type="email" id="EmailID" name="EmailID" required>
+            </div>
+            <div class="form-group">
+                <label for="PhoneNO">Phone Number</label>
+                <input type="text" id="PhoneNO" name="PhoneNO" required>
+            </div>
+            <div class="form-group">
+                <label for="DateOfBirth">Date of Birth</label>
+                <input type="date" id="DateOfBirth" name="DateOfBirth" required>
+            </div>
+            <button type="submit" class="btn-submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

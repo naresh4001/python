@@ -1,0 +1,6 @@
+Host A2NWPLSK14SQL-v03.shr.prod.iad2.secureserver.net
+
+
+Database name poojithamssql
+User name poojitha
+Password Poojitha$9

@@ -1,0 +1,9 @@
+
+Domain IP :  107.180.0.7
+
+FTP port :  21
+
+
+User ID : poojitha
+
+Password : Poojitha$9
